@@ -106,17 +106,20 @@ By following these usage instructions, you can effectively manage students, prof
 
 ![Database ERD](https://github.com/Dex-Astorga/data-science-mini/blob/main/univ_org_ERD.png?raw=true)
 
+<br>
  
-**Technologies Used:**
+### Technologies Used:
 
 - **Database Management System:** PostgreSQL
 - **Programming Languages:** SQL
 - **Version Control:** Git
 - **Development Tools:** Visual Studio Code
 
-**Contributing:**
+<br>
 
-Reporting Issues
+### Contributing:
+
+#### Reporting Issues
 
 If you encounter a bug or have an idea for improvement:
 
@@ -124,7 +127,7 @@ If you encounter a bug or have an idea for improvement:
 2. **Provide Details:** Clearly describe the problem or feature request.
 3. **Stay Engaged:** Check for updates on your issue.
 
-Code Contributions
+#### Code Contributions
 
 Interested in contributing code? Follow these steps:
 
@@ -134,17 +137,18 @@ Interested in contributing code? Follow these steps:
 4. **Test:** Ensure your changes work and add tests if relevant.
 5. **Pull Request:** Open a pull request from your branch.
 
-Contribution Guidelines
+#### Contribution Guidelines
 
 - Maintain a polite and collaborative tone in discussions.
 - Align contributions with project goals and your vision.
 
 Feel free to reach out with questions or concerns.
 
+<br>
 
 **License:**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 MIT License
 
@@ -153,6 +157,4 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
 
