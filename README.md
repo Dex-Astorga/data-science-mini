@@ -38,7 +38,7 @@ With these steps, you can quickly adapt this project to your university organiza
 
 ### Usage:
 
-#### Student and Professor Management
+#### 1. Student and Professor Management
 
         Adding Students:
 
@@ -49,7 +49,7 @@ With these steps, you can quickly adapt this project to your university organiza
 
         Professors can be managed similarly with students.
 
-#### Classes Management
+#### 2. Classes Management
        
         Adding Classes:
 
@@ -60,7 +60,7 @@ With these steps, you can quickly adapt this project to your university organiza
             '2023-01-01'
         );
         
-#### Officer and Award Management
+#### 3. Officer and Award Management
 
         Assigning Officers:
        
@@ -74,7 +74,7 @@ With these steps, you can quickly adapt this project to your university organiza
         VALUES
             ('2020-00009-ST-0', 1, 1, '2023-01-01');
         
-#### Data Reporting and Analysis
+#### 4. Data Reporting and Analysis
         
         Utilize SQL queries to generate various reports based on your data requirements. For example, to get a list of all awards won by the organization under a certain president.
         
@@ -93,18 +93,20 @@ With these steps, you can quickly adapt this project to your university organiza
             AND association_type = 'Organization'
             AND EXTRACT(YEAR FROM a.year_achieved) = '2023';
 
-#### Scalability
+#### 5. Scalability
 
         As your organization grows, you can continue to add data by executing `INSERT` queries and adapt SQL queries to handle increased data volumes. Ensure that your PostgreSQL database can handle the growth.
 
 
 By following these usage instructions, you can effectively manage students, professors, courses, officers, awards, and perform data reporting and analysis directly within the PostgreSQL server.
 
+<br>
 
 ### Database Schema:
 
- 
+![Database ERD](https://github.com/Dex-Astorga/data-science-mini/blob/main/univ_org_ERD.png?raw=true)
 
+ 
 **Technologies Used:**
 
 - **Database Management System:** PostgreSQL
