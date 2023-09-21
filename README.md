@@ -17,6 +17,7 @@ I created this project as a gift to my former university organization. This will
 #### License
 
 <br>
+
 ### Installation:
 
 Any university organization can leverage this project with minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
@@ -34,6 +35,7 @@ Any university organization can leverage this project with minimal adjustments t
 With these steps, you can quickly adapt this project to your university organization's environment and enjoy efficient data management and reporting capabilities.
 
 <br>
+
 ### Usage:
 
 #### Student and Professor Management
