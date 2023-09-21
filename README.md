@@ -17,7 +17,7 @@ I created this project as a gift to my former university organization. This will
 #### License
 
 <br>
-**Installation:**
+### Installation:
 
 Any university organization can leverage this project with minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
 
@@ -34,7 +34,8 @@ Any university organization can leverage this project with minimal adjustments t
 With these steps, you can quickly adapt this project to your university organization's environment and enjoy efficient data management and reporting capabilities.
 
 <br>
-**Usage:**
+### Usage:
+
 #### Student and Professor Management
 
         Adding Students:
@@ -59,7 +60,7 @@ With these steps, you can quickly adapt this project to your university organiza
         
 #### Officer and Award Management
 
-        **Assigning Officers:**
+        Assigning Officers:
        
         INSERT INTO officers (student_id, officer_type_id, year_of_service)
         VALUES
@@ -92,15 +93,13 @@ With these steps, you can quickly adapt this project to your university organiza
 
 #### Scalability
 
-        **Scaling the System:**
-
         As your organization grows, you can continue to add data by executing `INSERT` queries and adapt SQL queries to handle increased data volumes. Ensure that your PostgreSQL database can handle the growth.
 
 
 By following these usage instructions, you can effectively manage students, professors, courses, officers, awards, and perform data reporting and analysis directly within the PostgreSQL server.
 
 
-**Database Schema:**
+### Database Schema:
 
  
 
