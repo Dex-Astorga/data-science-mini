@@ -39,31 +39,38 @@ With these steps, you can quickly adapt this project to your university organiza
 <br>
 
 **Usage:**
-<br>
-1. Student and Professor Management
+<ol>
+    <li>1. Student and Professor Management
+        **Adding Students:**
+        <br>
+        INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
+        VALUES ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
+        <br>
+        <br>
+        **Professor Management:**
+        <br>
+        Professors can be managed similarly with students.
+        <br>
+    </li>
+    <li>2. Classes Management
+        **Adding Classes:**
+        <br>
+        INSERT INTO classes (subject_id, professor_id, year_offered)
+        VALUES (
+            (SELECT subject_id FROM subjects WHERE subject_name = 'Introduction to Electronics'),
+            'PROF1',
+            '2023-01-01'
+        );
+        <br>
+        <br></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
 
-**Adding Students:**
 <br>
-INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
-VALUES ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
-<br>
-<br>
-**Professor Management:**
-<br>
-Professors can be managed similarly with students.
 
-<br>
-2. Classes Management
-**Adding Classes:**
-<br>
-INSERT INTO classes (subject_id, professor_id, year_offered)
-VALUES (
-    (SELECT subject_id FROM subjects WHERE subject_name = 'Introduction to Electronics'),
-    'PROF1',
-    '2023-01-01'
-);
-<br>
-<br>
+
 
 3. Officer and Award Management
 
