@@ -42,10 +42,11 @@ With these steps, you can quickly adapt this project to your university organiza
 <br>
 1. Student and Professor Management
 
-**Adding Students**:
+**Adding Students:**
 <br>
 INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
 VALUES ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
+<br>
 <br>
 **Professor Management:**
 <br>
@@ -54,34 +55,39 @@ Professors can be managed similarly with students.
 <br>
 2. Classes Management
 **Adding Classes:**
-To add a new class to the system:
-
+<br>
 INSERT INTO classes (subject_id, professor_id, year_offered)
 VALUES (
     (SELECT subject_id FROM subjects WHERE subject_name = 'Introduction to Electronics'),
     'PROF1',
     '2023-01-01'
 );
+<br>
+<br>
 
 3. Officer and Award Management
 
 **Assigning Officers:**
-To assign a student as an officer:
+<br>
 INSERT INTO officers (student_id, officer_type_id, year_of_service)
 VALUES
-    ('2019-00001-ST-0', 1, '2023-01-01'),  
+    ('2019-00001-ST-0', 1, '2023-01-01');
+<br>
+<br>
 
 **Recording Awards:**
-To record awards received by students:
+<br>
 INSERT INTO top_performing_students (student_id, award_type_id, semester, year_received)
 VALUES
-    ('2020-00009-ST-0', 1, 1, '2023-01-01'),   ```
+    ('2020-00009-ST-0', 1, 1, '2023-01-01');
+<br>
+<br>
 
-#### 4. Data Reporting and Analysis
+4. Data Reporting and Analysis
+<br>
+Utilize SQL queries to generate various reports based on your data requirements. For example, to get a list of all awards won by the organization under a certain president.
 
-**Generating Reports:**
-- Utilize SQL queries to generate various reports based on your data requirements. For example, to get a list of all awards won by the organization under a certain president.
-SELECT s.student_id,
+<br>SELECT s.student_id,
         CONCAT(s.last_name, ', ', s.first_name) AS president,
         a.accomplishment,
         EXTRACT(YEAR FROM a.year_achieved) AS year_
@@ -95,11 +101,13 @@ SELECT s.student_id,
 WHERE ot.officer_type = 'President'
     AND association_type = 'Organization'
     AND EXTRACT(YEAR FROM a.year_achieved) = '2023' ;
+<br>
+<br>
 
 5. Scalability
-
+<br>
 **Scaling the System:**
-- As your organization grows, you can continue to add data by executing `INSERT` queries and adapt SQL queries to handle increased data volumes. Ensure that your PostgreSQL database can handle the growth.
+As your organization grows, you can continue to add data by executing `INSERT` queries and adapt SQL queries to handle increased data volumes. Ensure that your PostgreSQL database can handle the growth.
 
 By following these usage instructions, you can effectively manage students, professors, courses, officers, awards, and perform data reporting and analysis directly within the PostgreSQL server.
 
