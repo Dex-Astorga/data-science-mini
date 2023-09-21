@@ -20,6 +20,7 @@ I created this project as a gift to my former university organization. This will
 <br>
 
 **Installation:**
+<br>
 Any university organization can leverage this project with minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
 
 <ol>
@@ -34,23 +35,23 @@ Any university organization can leverage this project with minimal adjustments t
 
 With these steps, you can quickly adapt this project to your university organization's environment and enjoy efficient data management and reporting capabilities.
 
+<br>
+<br>
 
 **Usage:**
-
+<br>
 1. Student and Professor Management
 
-Adding Students:
-To add a new student to the system:
- INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
-VALUES
-    ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
-
-  
-
-
+**Adding Students**:
+<br>
+INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
+VALUES ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
+<br>
 **Professor Management:**
+<br>
 Professors can be managed similarly with students.
 
+<br>
 2. Classes Management
 **Adding Classes:**
 To add a new class to the system:
