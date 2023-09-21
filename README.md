@@ -1,11 +1,16 @@
 # UNIVERSITY ORGANIZATION DATABASE DESIGN
- I created this project as a gift to my former university organization. This will help them have a repository of all the data the organization had. Having a readily-available list of data can be very beneficial especially in information dissemination or getting in touch with organization alma mater.  Herea are some of its benefits: 
-a. Historical Record: The establishment of a database system is crucial for the organization as it enables them to maintain comprehensive historical records of their activities, achievements, and events. These records serve as a valuable resource for tracking their progress, preserving institutional memory, and ensuring transparency. Moreover, it is used to store the data of all the students and professors in the history of the organization.
-b. Reporting and Analysis: With structured data at their disposal, the organization can generate insightful reports and conduct in-depth data analysis. 
-c. Scalability: As the organization grows, a well-designed database system allows them to scale their data management effortlessly. It ensures that they can adapt to changing needs, accommodate a larger volume of data, and expand their operations without compromising data integrity or performance.
+I created this project as a gift to my former university organization. This will help them have a repository of all the data the organization had. Having a readily-available list of data can be very beneficial especially in information dissemination or getting in touch with organization alma mater.  Herea are some of its benefits: 
 
-## Table of Contents:
-### Installation
+<ul>
+    <li>a. Historical Record: The establishment of a database system is crucial for the organization as it enables them to maintain comprehensive historical records of their activities, achievements, and events. These records serve as a valuable resource for tracking their progress, preserving institutional memory, and ensuring transparency. Moreover, it is used to store the data of all the students and professors in the history of the organization.</li>
+    <li>b. Reporting and Analysis: With structured data at their disposal, the organization can generate insightful reports and conduct in-depth data analysis. 
+    </li>
+    <li>c. Scalability: As the organization grows, a well-designed database system allows them to scale their data management effortlessly. It ensures that they can adapt to changing needs, accommodate a larger volume of data, and expand their operations without compromising data integrity or performance.
+    </li>
+</ul> 
+
+Table of Contents:
+###Installation
 ### Usage
 ### Database Schema
 ### Technologies Used
