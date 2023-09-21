@@ -2,49 +2,46 @@
 I created this project as a gift to my former university organization. This will help them have a repository of all the data the organization had. Having a readily-available list of data can be very beneficial especially in information dissemination or getting in touch with organization alma mater.  Herea are some of its benefits: 
 
 <ul>
-    <li>a. Historical Record: The establishment of a database system is crucial for the organization as it enables them to maintain comprehensive historical records of their activities, achievements, and events. These records serve as a valuable resource for tracking their progress, preserving institutional memory, and ensuring transparency. Moreover, it is used to store the data of all the students and professors in the history of the organization.</li>
-    <li>b. Reporting and Analysis: With structured data at their disposal, the organization can generate insightful reports and conduct in-depth data analysis. 
+    <li> Historical Record: The establishment of a database system is crucial for the organization as it enables them to maintain comprehensive historical records of their activities, achievements, and events. These records serve as a valuable resource for tracking their progress, preserving institutional memory, and ensuring transparency. Moreover, it is used to store the data of all the students and professors in the history of the organization.</li>
+    <li> Reporting and Analysis: With structured data at their disposal, the organization can generate insightful reports and conduct in-depth data analysis. 
     </li>
-    <li>c. Scalability: As the organization grows, a well-designed database system allows them to scale their data management effortlessly. It ensures that they can adapt to changing needs, accommodate a larger volume of data, and expand their operations without compromising data integrity or performance.
+    <li> Scalability: As the organization grows, a well-designed database system allows them to scale their data management effortlessly. It ensures that they can adapt to changing needs, accommodate a larger volume of data, and expand their operations without compromising data integrity or performance.
     </li>
 </ul> 
 
-Table of Contents:
-###Installation
-### Usage
-### Database Schema
-### Technologies Used
-### License
+### Table of Contents:
+#### Installation
+#### Usage
+#### Database Schema
+#### Technologies Used
+#### License
 
 **Installation:**
 Any university organization can leverage this project with minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
 
-1.  Download the Project:  Visit the GitHub repository to access and download the project.
-
-2. Install PostgreSQL: Ensure that you have PostgreSQL installed on your local machine. If not, you can download and install it from the official PostgreSQL website.
-
-3. Setup and Configuration: Once PostgreSQL is installed, configure the database connection settings as per your organization's needs. You can find the configuration files within the project.
-
-4. Customization: Modify the project to align with your organization's specific requirements, such as officer types, courses, subjects, and student records.
-
-5. Import Data: Import your organization's data into the database. Custom scripts or data import tools can help streamline this process.
-
-6. Testing: Thoroughly test the system to ensure that it meets your organization's data management and reporting needs.
-
-7. Deployment: Once customized and tested, deploy the project to your desired environment.
+<ol>
+    <li> Download the Project:  Visit the GitHub repository to access and download the project.</li>
+    <li> Install PostgreSQL: Ensure that you have PostgreSQL installed on your local machine. If not, you can download and install it from the official PostgreSQL website. </li>
+    <li> Setup and Configuration: Once PostgreSQL is installed, configure the database connection settings as per your organization's needs. You can find the configuration files within the project. </li>
+    <li> Customization: Modify the project to align with your organization's specific requirements, such as officer types, courses, subjects, and student records. </li>
+    <li> Import Data: Import your organization's data into the database. Custom scripts or data import tools can help streamline this process. </li>
+    <li> Testing: Thoroughly test the system to ensure that it meets your organization's data management and reporting needs. </li>
+    <li> Deployment: Once customized and tested, deploy the project to your desired environment. </li>
+</ol>
 
 With these steps, you can quickly adapt this project to your university organization's environment and enjoy efficient data management and reporting capabilities.
 
 
 **Usage:**
+
 1. Student and Professor Management
 
 Adding Students:
 To add a new student to the system:
-‘’’ INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
+ INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
 VALUES
     ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
-‘’’
+
   
 
 
