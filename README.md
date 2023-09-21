@@ -40,13 +40,19 @@ With these steps, you can quickly adapt this project to your university organiza
 
 **Usage:**
 <ol>
-    <li>1. Student and Professor Management
+    <li>Student and Professor Management
+        <br>
         **Adding Students:**
+
         <br>
         INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
         VALUES ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
         <br>
-        <br>
+
+
+
+
+        
         **Professor Management:**
         <br>
         Professors can be managed similarly with students.
