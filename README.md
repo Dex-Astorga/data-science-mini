@@ -1,8 +1,8 @@
 # UNIVERSITY ORGANIZATION DATABASE DESIGN
-I created this project as a gift to my former university organization. This will help them have a repository of all the data the organization had. Having a readily-available list of data can be very beneficial especially in information dissemination or getting in touch with organization alma mater.  Herea are some of its benefits: 
+I created this project as a gift to my former university organization. This will help them have a repository of all the data the organization had. Having a readily-available list of data of all students and professors can be very beneficial especially in information dissemination or getting in touch with organization alma mater.  Here are some of the projects benefits: 
 
 <ul>
-    <li> Historical Record: The establishment of a database system is crucial for the organization as it enables them to maintain comprehensive historical records of their activities, achievements, and events. These records serve as a valuable resource for tracking their progress, preserving institutional memory, and ensuring transparency. Moreover, it is used to store the data of all the students and professors in the history of the organization.</li>
+    <li> Holding Historical Record: The establishment of a database system is crucial for the organization as it enables them to maintain comprehensive historical records of their activities, achievements, and events. These records serve as a valuable resource for tracking their progress, preserving institutional memory, and ensuring transparency. Moreover, it is used to store the data of all the students and professors in the history of the organization.</li>
     <li> Reporting and Analysis: With structured data at their disposal, the organization can generate insightful reports and conduct in-depth data analysis. 
     </li>
     <li> Scalability: As the organization grows, a well-designed database system allows them to scale their data management effortlessly. It ensures that they can adapt to changing needs, accommodate a larger volume of data, and expand their operations without compromising data integrity or performance.
@@ -20,7 +20,7 @@ I created this project as a gift to my former university organization. This will
 
 ### Installation:
 
-Any university organization can leverage this project with minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
+Any university organization can leverage this project comitting minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
 
 <ol>
     <li> Download the Project:  Visit the GitHub repository to access and download the project.</li>
@@ -107,7 +107,7 @@ By following these usage instructions, you can effectively manage students, prof
 ![Database ERD](https://github.com/Dex-Astorga/data-science-mini/blob/main/univ_org_ERD.png?raw=true)
 
 <br>
- 
+
 ### Technologies Used:
 
 - **Database Management System:** PostgreSQL
@@ -123,7 +123,7 @@ By following these usage instructions, you can effectively manage students, prof
 
 If you encounter a bug or have an idea for improvement:
 
-1. **Submit an Issue:** Visit the [issue tracker](link-to-issue-tracker) and create a new issue.
+1. **Submit an Issue:** Visit the [issue tracker](https://github.com/Dex-Astorga/data-science-mini/issues) and create a new issue.
 2. **Provide Details:** Clearly describe the problem or feature request.
 3. **Stay Engaged:** Check for updates on your issue.
 
@@ -146,7 +146,7 @@ Feel free to reach out with questions or concerns.
 
 <br>
 
-**License:**
+### License:
 
 This project is licensed under the MIT License.
 
