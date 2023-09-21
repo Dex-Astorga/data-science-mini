@@ -35,7 +35,7 @@ With these steps, you can quickly adapt this project to your university organiza
 
 <br>
 **Usage:**
-    <div>Student and Professor Management
+#### Student and Professor Management
 
         Adding Students:
 
@@ -45,8 +45,8 @@ With these steps, you can quickly adapt this project to your university organiza
         Professor Management:
 
         Professors can be managed similarly with students.
-    </div>
-    <div>Classes Management
+
+#### Classes Management
        
         Adding Classes:
 
@@ -57,8 +57,7 @@ With these steps, you can quickly adapt this project to your university organiza
             '2023-01-01'
         );
         
-    </div>
-    <div>Officer and Award Management
+#### Officer and Award Management
 
         **Assigning Officers:**
        
@@ -72,8 +71,7 @@ With these steps, you can quickly adapt this project to your university organiza
         VALUES
             ('2020-00009-ST-0', 1, 1, '2023-01-01');
         
-    </div>
-    <div>Data Reporting and Analysis
+#### Data Reporting and Analysis
         
         Utilize SQL queries to generate various reports based on your data requirements. For example, to get a list of all awards won by the organization under a certain president.
         
@@ -92,13 +90,12 @@ With these steps, you can quickly adapt this project to your university organiza
             AND association_type = 'Organization'
             AND EXTRACT(YEAR FROM a.year_achieved) = '2023';
 
-    </div>
-    <div>Scalability
+#### Scalability
 
         **Scaling the System:**
 
         As your organization grows, you can continue to add data by executing `INSERT` queries and adapt SQL queries to handle increased data volumes. Ensure that your PostgreSQL database can handle the growth.
-    </div>
+
 
 By following these usage instructions, you can effectively manage students, professors, courses, officers, awards, and perform data reporting and analysis directly within the PostgreSQL server.
 
