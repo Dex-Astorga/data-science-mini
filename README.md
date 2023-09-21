@@ -16,6 +16,9 @@ I created this project as a gift to my former university organization. This will
 #### Technologies Used
 #### License
 
+<br>
+<br>
+
 **Installation:**
 Any university organization can leverage this project with minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
 
