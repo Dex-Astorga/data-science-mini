@@ -16,9 +16,9 @@ I created this project as a gift to my former university organization. This will
 #### Technologies Used
 #### License
 
-
-**Installation:**
 <br>
+**Installation:**
+
 Any university organization can leverage this project with minimal adjustments to tailor it to their specific requirements. To get started, follow these simple steps:
 
 <ol>
@@ -33,24 +33,24 @@ Any university organization can leverage this project with minimal adjustments t
 
 With these steps, you can quickly adapt this project to your university organization's environment and enjoy efficient data management and reporting capabilities.
 
-
+<br>
 **Usage:**
 <ol>
     <li>Student and Professor Management
 
-        **Adding Students:**
+        Adding Students:
 
         INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
         VALUES ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
 
-        **Professor Management:**
+        Professor Management:
 
         Professors can be managed similarly with students.
 
     </li>
     <li>Classes Management
        
-        **Adding Classes:**
+        Adding Classes:
 
         INSERT INTO classes (subject_id, professor_id, year_offered)
         VALUES (
@@ -159,95 +159,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-Your format seems to be a mixture of HTML and Markdown. To create a cleaner and more consistent formatting, you can use Markdown syntax for the content within your HTML `<li>` elements. Here's an improved version:
-
-    ```markdown
-    <ol>
-        <li>
-    
-    ### Student and Professor Management
-    
-    **Adding Students:**
-    
-    ```sql
-    INSERT INTO students (student_id, first_name, middle_name, last_name, email, date_enrolled, date_of_birth, gender, contact_number, barangay, city)
-    VALUES ('2019-00001-ST-0', 'John', 'Michael', 'Doe', 'john.doe@email.com', '2022-08-15', '1995-03-20', 'Male', '09123456789', 'Barangay 1', 'City 1');
-    ```
-    
-    **Professor Management:**
-    
-    Professors can be managed similarly with students.
-    
-    </li>
-    <li>
-    
-    ### Classes Management
-    
-    **Adding Classes:**
-    
-    ```sql
-    INSERT INTO classes (subject_id, professor_id, year_offered)
-    VALUES (
-        (SELECT subject_id FROM subjects WHERE subject_name = 'Introduction to Electronics'),
-        'PROF1',
-        '2023-01-01'
-    );
-    ```
-    
-    </li>
-    <li>
-    
-    ### Officer and Award Management
-    
-    **Assigning Officers:**
-    
-    ```sql
-    INSERT INTO officers (student_id, officer_type_id, year_of_service)
-    VALUES ('2019-00001-ST-0', 1, '2023-01-01');
-    ```
-    
-    **Recording Awards:**
-    
-    ```sql
-    INSERT INTO top_performing_students (student_id, award_type_id, semester, year_received)
-    VALUES ('2020-00009-ST-0', 1, 1, '2023-01-01');
-    ```
-    
-    </li>
-    <li>
-    
-    ### Data Reporting and Analysis
-    
-    Utilize SQL queries to generate various reports based on your data requirements. For example, to get a list of all awards won by the organization under a certain president.
-    
-    ```sql
-    SELECT s.student_id,
-            CONCAT(s.last_name, ', ', s.first_name) AS president,
-            a.accomplishment,
-            EXTRACT(YEAR FROM a.year_achieved) AS year_
-            FROM officer_types ot
-        JOIN officers o 
-        ON o.officer_type_id = ot.officer_type_id
-        JOIN students s
-        ON s.student_id = o.student_id
-        JOIN accomplishments a 
-        ON EXTRACT(YEAR FROM a.year_achieved) = EXTRACT(YEAR FROM o.year_of_service)
-    WHERE ot.officer_type = 'President'
-        AND association_type = 'Organization'
-        AND EXTRACT(YEAR FROM a.year_achieved) = '2023';
-    ```
-    
-    </li>
-    <li>
-    
-    ### Scalability
-    
-    **Scaling the System:**
-    
-    As your organization grows, you can continue to add data by executing `INSERT` queries and adapt SQL queries to handle increased data volumes. Ensure that your PostgreSQL database can handle the growth.
-    
-    </li>
-    </ol>
-    ```
-    
-    In this format, each section and its corresponding SQL code is enclosed in Markdown headers, making it more readable and easier to navigate. The SQL code is also formatted as a code block for better presentation.
